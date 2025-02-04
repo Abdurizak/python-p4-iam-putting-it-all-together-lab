@@ -122,7 +122,7 @@ class TestUser:
             db.session.commit()
 
             # check that all were created in db
-            assert(user.id)
+            assert(user.id)                                                                                                                                                                                                                                                                                             
             assert(recipe_1.id)
             assert(recipe_2.id)
 
